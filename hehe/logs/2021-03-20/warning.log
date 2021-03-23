@@ -1,0 +1,4 @@
+2021-03-20 10:32:03.423 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.demo.registration.mapper.RegistrationMapper.addRegistration]
+2021-03-20 10:33:57.718 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-20 11:22:03.086 [http-nio-8082-exec-10] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-20 11:33:43.335 [http-nio-8082-exec-10] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.

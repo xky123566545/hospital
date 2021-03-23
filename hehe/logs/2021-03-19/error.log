@@ -1,0 +1,4 @@
+2021-03-19 09:18:24 201307 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.controller.ImgController - 新增失败
+2021-03-19 16:24:58 45173 [1;31mERROR[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.picture.controller.ImgController - 删除失败

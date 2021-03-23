@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.department.mapper.DepartmentMapper">
+<!-- 计算科室数量-->
+    <select id="countDepartment" parameterType="java.lang.String" resultType="int">
+        select count(department_code)
+        from department
+        where department_code = #{departmentCode}
+    </select>
+<!--    新增科室信息-->
+    <insert id="addDepartment" parameterType="com.example.demo.department.entity.DepartmentInfo">
+        insert into department
+        values
+        (
+            #{departmentId},
+            #{departmentCode},
+            #{departmentName},
+            #{departmentDescribe},
+            0
+        )
+    </insert>
+<!--    列表查询科室信息-->
+    <select id="listDepartment" parameterType="com.example.demo.department.entity.DepartmentInfo" resultType="com.example.demo.department.entity.DepartmentInfo">
+        select *
+        from department
+        <where>
+            status = 0
+            <if test="department != null">
+                <if test="department.departmentCode != null and department.departmentCode !='' ">
+                    and department_code like concat('%',#{department.departmentCode},'%')
+                </if>
+                <if test="department.departmentName != null and department.departmentName !='' ">
+                    and department_name like concat('%',#{department.departmentName},'%')
+                </if>
+                <if test="department.departmentDescribe != null and department.departmentDescribe !='' ">
+                    and department_describe like concat('%',#{department.departmentDescribe},'%')
+                </if>
+            </if>
+        </where>
+    </select>
+<!--    修改科室信息-->
+    <update id="updateDepartment" parameterType="com.example.demo.department.entity.DepartmentInfo">
+        update department
+        set
+            department_name = #{departmentName},
+            department_describe = #{departmentDescribe}
+        where department_id = #{departmentId}
+    </update>
+<!--删除科室信息-->
+    <delete id="deleteDepartment" parameterType="java.util.List">
+        update department
+        set
+            status = 1
+        where department_id in
+        <foreach collection="departmentId" open="(" close=")" item="item" index="index" separator=",">
+            #{item}
+        </foreach>
+    </delete>
+</mapper>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.user.mapper.UserMapper">
+    <insert id="addUser" parameterType="com.example.demo.user.entity.UserInfo">
+        insert into user
+        values
+        (
+            #{userId},
+            #{userCode},
+            #{userName},
+            #{userPassword},
+            #{imgPath},
+            #{departmentId},
+            #{userDescribe},
+            #{jobName},
+            #{role},
+            0
+        )
+    </insert>
+<!--    查询用户账号是否存在-->
+    <select id="countUserCode" parameterType="java.lang.String" resultType="int">
+        select count(user_code)
+        from user
+        where user_code = #{userCode}
+        and status = 0
+    </select>
+<!--    列表查询用户信息-->
+    <select id="listUser" parameterType="com.example.demo.user.entity.UserInfo" resultType="com.example.demo.user.entity.UserInfo">
+        select *
+        from user
+        <where>
+        status = 0
+        <if test="userInfo != null">
+            <if test="userInfo.userCode != null and userInfo.userCode != ''">
+                and user_code like concat('%',#{userInfo.userCode},'%')
+            </if>
+            <if test="userInfo.userName != null and userInfo.userName != ''">
+                and user_name like concat('%',#{userInfo.userName},'%')
+            </if>
+            <if test="userInfo.departmentId != null and userInfo.departmentId != ''">
+                and department_id like concat('%',#{userInfo.departmentId},'%')
+            </if>
+            <if test="userInfo.userDescribe != null and userInfo.userDescribe != ''">
+                and user_describe like concat('%',#{userInfo.userDescribe},'%')
+            </if>
+            <if test="userInfo.jobName != null and userInfo.jobName != ''">
+                and job_name like concat('%',#{userInfo.jobName},'%')
+            </if>
+            <if test="userInfo.role != null and userInfo.role != ''">
+                and role = #{userInfo.role}
+            </if>
+        </if>
+        </where>
+    </select>
+<!--    删除用户信息-->
+    <update id="deleteUser" parameterType="java.util.List">
+        update user
+        set
+            status = 1
+        where user_id in
+        <foreach collection="userId" close=")" open="(" item="item" separator="," index="index">
+            #{item}
+        </foreach>
+    </update>
+<!--    修改用户信息-->
+    <update id="updateUser" parameterType="com.example.demo.user.entity.UserInfo">
+        update user
+        set
+            user_name = #{userName},
+            img_path = #{imgPath},
+            department_id = #{departmentId},
+            user_describe = #{userDescribe},
+            job_name      = #{jobName}
+
+        where user_id = #{userId}
+    </update>
+<!--    获取密码-->
+    <select id="getPassword" parameterType="java.lang.String" resultType="java.lang.String">
+        select user_password
+        from user
+        where user_id = #{userId}
+    </select>
+<!--    修改密码-->
+    <update id="updatePassword" parameterType="java.lang.String">
+        update user
+        set
+            user_password = #{password}
+        where user_id = #{userId}
+    </update>
+</mapper>

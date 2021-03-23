@@ -1,0 +1,78 @@
+2021-03-20 10:33:58 23228 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==>  Preparing: insert into registration values ( ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-20 10:33:58 23259 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==> Parameters: b29c5d47a239434eacbc6c0ed9ac03f5(String), 1103(String), 张三(String), 肠胃科(String), 1111111(String), 任家瑞(String), 肠胃科主任(String)
+2021-03-20 10:33:58 23276 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - <==    Updates: 1
+2021-03-20 10:34:36 61891 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==>  Preparing: insert into registration values ( ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-20 10:34:36 61892 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==> Parameters: 38735d5b328744a78bc9ba7f4d89473d(String), 1103(String), 张三(String), 肠胃科(String), 1111111(String), 任家瑞(String), 肠胃科主任(String)
+2021-03-20 10:34:36 61896 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - <==    Updates: 1
+2021-03-20 10:34:38 63538 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==>  Preparing: insert into registration values ( ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-20 10:34:38 63539 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==> Parameters: 58e1f0142e374a829d7c6bfc13929031(String), 1103(String), 张三(String), 肠胃科(String), 1111111(String), 任家瑞(String), 肠胃科主任(String)
+2021-03-20 10:34:38 63541 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - <==    Updates: 1
+2021-03-20 10:34:38 63697 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==>  Preparing: insert into registration values ( ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-20 10:34:38 63698 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==> Parameters: 9ba5ea4b29c345f79f3b4e6b54538f24(String), 1103(String), 张三(String), 肠胃科(String), 1111111(String), 任家瑞(String), 肠胃科主任(String)
+2021-03-20 10:34:38 63700 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - <==    Updates: 1
+2021-03-20 10:34:45 70831 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==>  Preparing: insert into registration values ( ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-20 10:34:45 70832 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - ==> Parameters: 88c4f4cf9d1a4160b0cd8774c65c1989(String), 1103(String), 张三(String), 肠胃科11(String), 1111111(String), 任家瑞111(String), 肠胃科主任11(String)
+2021-03-20 10:34:45 70836 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.registration.mapper.RegistrationMapper.addRegistration - <==    Updates: 1
+2021-03-20 11:22:03 116366 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.listRegistration_COUNT - ==>  Preparing: SELECT count(0) FROM registration 
+2021-03-20 11:22:03 116398 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.listRegistration_COUNT - ==> Parameters: 
+2021-03-20 11:22:03 116478 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.listRegistration_COUNT - <==      Total: 1
+2021-03-20 11:22:03 116482 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.listRegistration - ==>  Preparing: select * from registration LIMIT ? 
+2021-03-20 11:22:03 116483 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.listRegistration - ==> Parameters: 20(Integer)
+2021-03-20 11:22:03 116487 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.listRegistration - <==      Total: 5
+2021-03-20 11:22:15 128309 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==>  Preparing: select count(doctor_name) from registration where status = 0 
+2021-03-20 11:22:15 128310 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==> Parameters: 
+2021-03-20 11:22:15 128416 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - <==      Total: 1
+2021-03-20 11:33:43 46448 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==>  Preparing: select count(doctor_name) from registration where status = 0 and doctor_name = ? 
+2021-03-20 11:33:43 46475 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==> Parameters: 任嘉瑞(String)
+2021-03-20 11:33:43 46507 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - <==      Total: 1
+2021-03-20 11:34:01 64655 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==>  Preparing: select count(doctor_name) from registration where status = 0 and doctor_name = ? 
+2021-03-20 11:34:01 64655 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==> Parameters: 任家瑞(String)
+2021-03-20 11:34:01 64656 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - <==      Total: 1
+2021-03-20 11:34:14 77483 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==>  Preparing: select count(doctor_name) from registration where status = 0 and doctor_name = ? 
+2021-03-20 11:34:14 77484 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==> Parameters: 任家瑞(String)
+2021-03-20 11:34:14 77485 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - <==      Total: 1
+2021-03-20 11:34:34 96975 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.registration.mapper.RegistrationMapper.updateStatus - ==>  Preparing: update registration set status = ? where registration_id in ( ? ) 
+2021-03-20 11:34:34 96976 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.registration.mapper.RegistrationMapper.updateStatus - ==> Parameters: 1(String), b29c5d47a239434eacbc6c0ed9ac03f5(String)
+2021-03-20 11:34:34 96978 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.registration.mapper.RegistrationMapper.updateStatus - <==    Updates: 1
+2021-03-20 11:34:41 104682 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==>  Preparing: select count(doctor_name) from registration where status = 0 and doctor_name = ? 
+2021-03-20 11:34:41 104683 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - ==> Parameters: 任家瑞(String)
+2021-03-20 11:34:41 104684 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.registration.mapper.RegistrationMapper.countDoctorName - <==      Total: 1

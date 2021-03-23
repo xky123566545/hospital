@@ -1,0 +1,13 @@
+2021-03-19 09:18:23.505 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-19 09:18:24.045 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'createUser' in 'field list'
+### The error may involve com.example.demo.picture.mapper.ImgMapper.saveImg-Inline
+### The error occurred while setting parameters
+### SQL: insert into picture     values     (         ?,         ?,         ?,         0,         createUser,         now()     )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'createUser' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'createUser' in 'field list']
+2021-03-19 09:19:52.442 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-19 14:41:24.600 [http-nio-8082-exec-10] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-19 16:24:59.015 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'imgId' not found. Available parameters are [collection, list]]
+2021-03-19 16:27:05.200 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-19 16:28:51.588 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.

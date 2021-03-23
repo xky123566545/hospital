@@ -1,0 +1,626 @@
+2021-03-18 09:14:07 127406 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:14:07 127439 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 酒店(String)
+2021-03-18 09:14:33 153801 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:14:33 153804 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:15:53 54838 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:15:53 54866 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:15:53 54894 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:15:53 54899 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==>  Preparing: update inventory_manage set inventory_count = inventory_count +? where inventory_name = ? 
+2021-03-18 09:15:53 54899 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==> Parameters: string(String), 门窗1(String)
+2021-03-18 09:17:52 20019 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:17:52 20050 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:17:52 20189 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:17:52 20195 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==>  Preparing: update inventory_manage set inventory_count = inventory_count +? where inventory_name = ? 
+2021-03-18 09:17:52 20196 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==> Parameters: string(String), 门窗1(String)
+2021-03-18 09:20:49 98559 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:20:49 98587 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:20:49 98617 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:20:49 98623 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==>  Preparing: update inventory_manage set inventory_count = inventory_count +? where inventory_name = ? 
+2021-03-18 09:23:26 13797 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:23:26 13824 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:23:26 13974 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:23:26 13980 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==>  Preparing: update inventory_manage set inventory_count = inventory_count +? where inventory_name = ? 
+2021-03-18 09:28:17 166725 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:28:17 167068 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:28:18 167344 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:28:22 171475 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==>  Preparing: update inventory_manage set inventory_count = inventory_count + ? where inventory_name = ? 
+2021-03-18 09:29:54 11838 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:29:54 11865 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:29:54 11893 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:29:54 11898 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==>  Preparing: update inventory_manage set inventory_count = inventory_count + ? where inventory_name = ? 
+2021-03-18 09:30:47 13412 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:30:47 13440 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗1(String)
+2021-03-18 09:30:47 13470 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:30:47 13476 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==>  Preparing: update inventory_manage set inventory_count = inventory_count + ? where inventory_name = ? 
+2021-03-18 09:30:47 13476 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - ==> Parameters: 100(Integer), 门窗1(String)
+2021-03-18 09:30:47 13506 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.addInventoryCount - <==    Updates: 1
+2021-03-18 09:30:57 23286 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==>  Preparing: select count(inventory_name) from inventory_manage where inventory_name = ? 
+2021-03-18 09:30:57 23286 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - ==> Parameters: 门窗5(String)
+2021-03-18 09:30:57 23286 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.countInventoryName - <==      Total: 1
+2021-03-18 09:30:57 23287 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-18 09:30:57 23290 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: 38b5a10b0c5d405c9ef26b41335236bb(String), 门窗5(String), string(String), 156(String), string(String), 100(String), string(String), string(String), string(String), string(String), string(String), 100(String), string(String)
+2021-03-18 09:30:57 23293 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
+2021-03-18 10:09:06 217623 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.listInventory_COUNT - ==>  Preparing: SELECT count(0) FROM inventory_manage WHERE 1 = 1 
+2021-03-18 10:09:06 217647 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.listInventory_COUNT - ==> Parameters: 
+2021-03-18 10:09:06 217676 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.listInventory_COUNT - <==      Total: 1
+2021-03-18 10:09:06 217680 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.listInventory - ==>  Preparing: select * from inventory_manage WHERE 1 = 1 LIMIT ? 
+2021-03-18 10:09:06 217681 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.listInventory - ==> Parameters: 20(Integer)
+2021-03-18 10:09:06 217688 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.listInventory - <==      Total: 8
+2021-03-18 10:26:55 155864 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.updateInventory - ==>  Preparing: update inventory_manage set inventory_name = ?, img_path = ?, inventory_type = ?, inventory_describe = ?, inventory_size = ?, inventory_address = ?, inventory_info = ?, barcode = ?, inventory_ori_price = ?, inventory_pre_price = ?, inventory_count = ?, create_user = ?, create_time = now() where inventory_id = ? 
+2021-03-18 10:26:55 155893 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.updateInventory - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 10:27:09 169396 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.inventory.mapper.InventoryMapper.updateInventory - ==>  Preparing: update inventory_manage set inventory_name = ?, img_path = ?, inventory_type = ?, inventory_describe = ?, inventory_size = ?, inventory_address = ?, inventory_info = ?, barcode = ?, inventory_ori_price = ?, inventory_pre_price = ?, inventory_count = ?, create_user = ?, create_time = now() where inventory_id = ? 
+2021-03-18 10:27:09 169397 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.inventory.mapper.InventoryMapper.updateInventory - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), 200(String), string(String), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 10:27:09 169400 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.inventory.mapper.InventoryMapper.updateInventory - <==    Updates: 1
+2021-03-18 10:54:34 50610 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.deleteInventory - ==>  Preparing: update inventory_manage set status = 1 where inventory_id in ( ? , ? ) 
+2021-03-18 10:54:34 50641 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.deleteInventory - ==> Parameters: d56b4570873e4745aa54077dec6a4a35(String), c02181887ec847cf9be748b1cbd91a53(String)
+2021-03-18 10:54:34 50657 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.deleteInventory - <==    Updates: 2
+2021-03-18 13:57:54 248818 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==>  Preparing: insert into godown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), 0 ) 
+2021-03-18 13:57:54 248854 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==> Parameters: dc03c7bea58e429e9a49473382447e5d(String), 11111(String), 111(String), 11(String), 11(String), 111(String), 11(String), 1111(String), 881002(String), 12425(String), 122222(String), 111(String), 11(String)
+2021-03-18 14:00:18 13921 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==>  Preparing: insert into godown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), null, 0 ) 
+2021-03-18 14:00:18 13959 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==> Parameters: 9d9ade7931b742c7b0fbf28cdda19e83(String), 11111(String), 111(String), 11(String), 11(String), 111(String), 11(String), 1111(String), 881002(String), 12425(String), 122222(String), 111(String), 11(String)
+2021-03-18 14:00:18 14281 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - <==    Updates: 1
+2021-03-18 14:01:09 65084 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==>  Preparing: insert into godown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), null, 0 ) 
+2021-03-18 14:01:09 65085 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==> Parameters: b770350fd7004f65b2608eeac875de4d(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 881003(String), 测试(String), 测试(String), 111(String), admin(String)
+2021-03-18 14:01:09 65104 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - <==    Updates: 1
+2021-03-18 14:01:15 70564 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==>  Preparing: insert into godown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), null, 0 ) 
+2021-03-18 14:01:15 70565 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==> Parameters: 7c35be74a83046718bbe689d4aa34451(String), 测试111(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 881003(String), 测试(String), 测试(String), 111(String), admin(String)
+2021-03-18 14:01:15 70578 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - <==    Updates: 1
+2021-03-18 14:01:21 77477 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==>  Preparing: insert into godown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), null, 0 ) 
+2021-03-18 14:01:21 77478 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==> Parameters: 505e01943d244f34be4037e5eb68521e(String), 测试222(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 881003(String), 测试(String), 测试(String), 111(String), admin(String)
+2021-03-18 14:01:21 77482 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - <==    Updates: 1
+2021-03-18 14:01:26 82504 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==>  Preparing: insert into godown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), null, 0 ) 
+2021-03-18 14:01:26 82504 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==> Parameters: 7f5f6cdfc06d4a6baca0e4f299be91f1(String), 测试3333(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 881003(String), 测试(String), 测试(String), 111(String), admin(String)
+2021-03-18 14:01:27 82638 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - <==    Updates: 1
+2021-03-18 14:01:32 88031 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==>  Preparing: insert into godown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), null, 0 ) 
+2021-03-18 14:01:32 88032 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - ==> Parameters: deefe76e73ed4f7a83a57fc02ce578b7(String), 测试4444(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 测试(String), 881003(String), 测试(String), 测试(String), 111(String), admin(String)
+2021-03-18 14:01:32 88050 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.godown.mapper.GodownMapper.addGodown - <==    Updates: 1
+2021-03-18 14:14:33 160407 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.listGodown_COUNT - ==>  Preparing: SELECT count(0) FROM godown WHERE status = 0 
+2021-03-18 14:14:33 160438 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.listGodown_COUNT - ==> Parameters: 
+2021-03-18 14:14:33 160485 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.listGodown_COUNT - <==      Total: 1
+2021-03-18 14:14:33 160490 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.listGodown - ==>  Preparing: select * from godown WHERE status = 0 LIMIT ? 
+2021-03-18 14:14:33 160491 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.listGodown - ==> Parameters: 20(Integer)
+2021-03-18 14:14:33 160497 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.listGodown - <==      Total: 6
+2021-03-18 14:26:46 117273 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.godown.mapper.GodownMapper.updateGodown - ==>  Preparing: update godown set godown_name = ?, img_path = ?, godown_type = ?, godown_describe = ?, godown_size = ?, godown_address = ?, godown_info = ?, barcode = ?, godown_ori_price = ?, godown_pre_price = ?, godown_count = ?, create_user = ?, godown_time = ?, create_time = now() where godown_id = ? 
+2021-03-18 14:26:46 117310 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.godown.mapper.GodownMapper.updateGodown - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), admin(String), 2021-03-18 14:25:31.438(Timestamp), deefe76e73ed4f7a83a57fc02ce578b7(String)
+2021-03-18 14:26:58 128800 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.godown.mapper.GodownMapper.updateGodown - ==>  Preparing: update godown set godown_name = ?, img_path = ?, godown_type = ?, godown_describe = ?, godown_size = ?, godown_address = ?, godown_info = ?, barcode = ?, godown_ori_price = ?, godown_pre_price = ?, godown_count = ?, create_user = ?, godown_time = ?, create_time = now() where godown_id = ? 
+2021-03-18 14:26:58 128802 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.godown.mapper.GodownMapper.updateGodown - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), 20(String), admin(String), 2021-03-18 14:25:31.438(Timestamp), deefe76e73ed4f7a83a57fc02ce578b7(String)
+2021-03-18 14:26:58 128806 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.godown.mapper.GodownMapper.updateGodown - <==    Updates: 1
+2021-03-18 14:42:24 151739 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.updateStatus - ==>  Preparing: update godown set status = ? where godown_id = ? 
+2021-03-18 14:42:24 151770 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.updateStatus - ==> Parameters: 1(String), deefe76e73ed4f7a83a57fc02ce578b7(String)
+2021-03-18 14:42:24 151775 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.godown.mapper.GodownMapper.updateStatus - <==    Updates: 1
+2021-03-18 14:42:32 160205 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.godown.mapper.GodownMapper.updateStatus - ==>  Preparing: update godown set status = ? where godown_id = ? 
+2021-03-18 14:42:32 160205 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.godown.mapper.GodownMapper.updateStatus - ==> Parameters: 2(String), deefe76e73ed4f7a83a57fc02ce578b7(String)
+2021-03-18 14:42:32 160209 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.godown.mapper.GodownMapper.updateStatus - <==    Updates: 1
+2021-03-18 16:02:50 1043636 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==>  Preparing: update inventory_manage set inventory_count = inventory_count - ? where inventory_id = ? 
+2021-03-18 16:02:50 1043667 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==> Parameters: 11(Integer), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 16:02:50 1043732 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - <==    Updates: 1
+2021-03-18 16:15:03 49236 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==>  Preparing: update inventory_manage set inventory_count = inventory_count - ? where inventory_id = ? 
+2021-03-18 16:15:03 49266 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==> Parameters: 11(Integer), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 16:15:03 49291 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - <==    Updates: 1
+2021-03-18 16:15:03 49294 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==>  Preparing: insert into outdown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, now(), 0 ) 
+2021-03-18 16:15:03 49296 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==> Parameters: b1b86de56025436bad5fc9e8d2cf1a91(String), 111(String), 1111(String), 111(String), 111(String), 111(String), 880121(String), 11(String), 11(String), 111(String), admin(String)
+2021-03-18 16:15:03 49327 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - <==    Updates: 1
+2021-03-18 16:17:54 219562 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==>  Preparing: update inventory_manage set inventory_count = inventory_count - ? where inventory_id = ? 
+2021-03-18 16:17:54 219562 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==> Parameters: 11(Integer), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 16:17:54 219565 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - <==    Updates: 1
+2021-03-18 16:17:54 219566 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==>  Preparing: insert into outdown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, now(), 0 ) 
+2021-03-18 16:17:54 219567 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==> Parameters: 08357c9aee0b4e699a3fb4f3bd98d21f(String), 111(String), 测试(String), 111(String), 测试(String), 测试111(String), 880121(String), 11(String), 11(String), 111(String), admin(String)
+2021-03-18 16:17:54 219613 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - <==    Updates: 1
+2021-03-18 16:18:03 228936 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==>  Preparing: update inventory_manage set inventory_count = inventory_count - ? where inventory_id = ? 
+2021-03-18 16:18:03 228936 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==> Parameters: 11(Integer), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 16:18:03 228952 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - <==    Updates: 1
+2021-03-18 16:18:03 228952 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==>  Preparing: insert into outdown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, now(), 0 ) 
+2021-03-18 16:18:03 228953 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==> Parameters: 6aa86dde53a74ea898c6228989c6666f(String), 111(String), 测试2(String), 111(String), 测试2(String), 测试2222(String), 880121(String), 11(String), 11(String), 111(String), admin(String)
+2021-03-18 16:18:03 228956 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - <==    Updates: 1
+2021-03-18 16:18:12 238076 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==>  Preparing: update inventory_manage set inventory_count = inventory_count - ? where inventory_id = ? 
+2021-03-18 16:18:12 238076 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==> Parameters: 11(Integer), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 16:18:12 238080 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - <==    Updates: 1
+2021-03-18 16:18:12 238080 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==>  Preparing: insert into outdown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, now(), 0 ) 
+2021-03-18 16:18:12 238081 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==> Parameters: 03f74a3504f4468fb1e5308cc9fc5979(String), 111(String), 测试3(String), 111(String), 测试3(String), 测试3222(String), 880121(String), 11(String), 11(String), 111(String), admin(String)
+2021-03-18 16:18:12 238083 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - <==    Updates: 1
+2021-03-18 16:18:21 246619 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==>  Preparing: update inventory_manage set inventory_count = inventory_count - ? where inventory_id = ? 
+2021-03-18 16:18:21 246620 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==> Parameters: 11(Integer), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 16:18:21 246622 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - <==    Updates: 1
+2021-03-18 16:18:21 246622 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==>  Preparing: insert into outdown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, now(), 0 ) 
+2021-03-18 16:18:21 246623 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==> Parameters: 4573fad275754d1795fa93f8b0f8dc22(String), 111(String), 测试5(String), 111(String), 测试5(String), 测试5555(String), 880121(String), 11(String), 11(String), 111(String), admin(String)
+2021-03-18 16:18:21 246624 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - <==    Updates: 1
+2021-03-18 16:18:28 254337 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==>  Preparing: update inventory_manage set inventory_count = inventory_count - ? where inventory_id = ? 
+2021-03-18 16:18:28 254338 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - ==> Parameters: 11(Integer), d56b4570873e4745aa54077dec6a4a35(String)
+2021-03-18 16:18:28 254339 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateCnt - <==    Updates: 1
+2021-03-18 16:18:28 254340 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==>  Preparing: insert into outdown values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, now(), 0 ) 
+2021-03-18 16:18:28 254340 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - ==> Parameters: b6c81a21cc2a4db195401534a05d4654(String), 111(String), 测试6(String), 111(String), 测试6(String), 测试6666(String), 880121(String), 11(String), 11(String), 111(String), admin(String)
+2021-03-18 16:18:28 254342 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.addOutdown - <==    Updates: 1
+2021-03-18 16:29:05 40878 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.outdown.mapper.OutdownMapper.listOutdown_COUNT - ==>  Preparing: SELECT count(0) FROM outdown WHERE status = 0 
+2021-03-18 16:29:05 40909 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.outdown.mapper.OutdownMapper.listOutdown_COUNT - ==> Parameters: 
+2021-03-18 16:29:06 41067 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.outdown.mapper.OutdownMapper.listOutdown_COUNT - <==      Total: 1
+2021-03-18 16:29:06 41071 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.outdown.mapper.OutdownMapper.listOutdown - ==>  Preparing: select * from outdown WHERE status = 0 LIMIT ? 
+2021-03-18 16:29:06 41072 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.outdown.mapper.OutdownMapper.listOutdown - ==> Parameters: 20(Integer)
+2021-03-18 16:29:06 41079 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.outdown.mapper.OutdownMapper.listOutdown - <==      Total: 6
+2021-03-18 16:35:41 81720 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==>  Preparing: update outdown set img_path = ?, customer_name = ?, customer_phone = ?, customer_address = ?, inventory_name = ?, barcode = ?, outdown_cnt = ?, outdown_price = ?, outdown_all_price = ? where outdown_id = ? 
+2021-03-18 16:35:41 81749 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), b1b86de56025436bad5fc9e8d2cf1a91(String)
+2021-03-18 16:35:50 90769 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==>  Preparing: update outdown set img_path = ?, customer_name = ?, customer_phone = ?, customer_address = ?, inventory_name = ?, barcode = ?, outdown_cnt = ?, outdown_price = ?, outdown_all_price = ? where outdown_id = ? 
+2021-03-18 16:35:50 90770 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), 3(String), string(String), string(String), b1b86de56025436bad5fc9e8d2cf1a91(String)
+2021-03-18 16:36:00 100461 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==>  Preparing: update outdown set img_path = ?, customer_name = ?, customer_phone = ?, customer_address = ?, inventory_name = ?, barcode = ?, outdown_cnt = ?, outdown_price = ?, outdown_all_price = ? where outdown_id = ? 
+2021-03-18 16:36:00 100461 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), 3(String), 10(String), string(String), b1b86de56025436bad5fc9e8d2cf1a91(String)
+2021-03-18 16:36:06 105988 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==>  Preparing: update outdown set img_path = ?, customer_name = ?, customer_phone = ?, customer_address = ?, inventory_name = ?, barcode = ?, outdown_cnt = ?, outdown_price = ?, outdown_all_price = ? where outdown_id = ? 
+2021-03-18 16:36:06 105989 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), 3(String), 10(String), 15(String), b1b86de56025436bad5fc9e8d2cf1a91(String)
+2021-03-18 16:36:06 106086 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutdown - <==    Updates: 1
+2021-03-18 16:48:11 50876 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutStatus - ==>  Preparing: update outdown set status = ? where outdown_id = ? 
+2021-03-18 16:49:34 25635 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutStatus - ==>  Preparing: update outdown set status = ? where outdown_id = ? 
+2021-03-18 16:50:23 18749 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutStatus - ==>  Preparing: update outdown set status = ? where outdown_id = ? 
+2021-03-18 16:50:23 18775 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutStatus - ==> Parameters: 1(String), b6c81a21cc2a4db195401534a05d4654(String)
+2021-03-18 16:50:23 18784 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.outdown.mapper.OutdownMapper.updateOutStatus - <==    Updates: 1
+2021-03-18 19:55:00 142476 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 19:55:00 142518 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 1102(String)
+2021-03-18 19:55:00 142569 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 19:55:00 142574 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 19:55:00 142576 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: f9bf58470a3644d9b341339222c8b420(String), 1102(String), 郑浩枢(String), $2a$10$3U1q0VI/VPjZriJGpkdwx.07ccDYeSd86rBRe1K3ECKiDW5vfySLi(String), www.baidu.com(String), 1001(String), 肠胃科郑主任(String), 肠胃科主任(String), 1(String)
+2021-03-18 19:55:00 142599 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 19:57:15 277589 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 19:57:15 277589 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 1102(String)
+2021-03-18 19:57:15 277592 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 19:57:15 277593 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 19:57:15 277594 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: 7ccb11882ea64cc0ac004580b0e8083f(String), 1102(String), 郑浩枢(String), $2a$10$zlB6U4jUvJzzxKfD.6jsSeS2h1IST8qsONAX7WDFULgAGpqyMoBri(String), www.baidu.com(String), 1001(String), 肠胃科郑主任(String), 肠胃科主任(String), 1(String)
+2021-03-18 19:57:15 277596 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 19:58:56 378645 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 19:58:56 378646 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 1102(String)
+2021-03-18 19:58:56 378647 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 19:59:09 391752 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 19:59:09 391753 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 1103(String)
+2021-03-18 19:59:09 391754 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 19:59:09 391754 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 19:59:09 391755 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: 0a4116d68d4f4f62a9da1d5f66124d45(String), 1103(String), 任家瑞(String), $2a$10$3g2TFmSW3RO0ShB5jR1cNeNWPFwJANjFMiqxQnJ4/foFl1pOXXOpy(String), www.baidu.com(String), 1002(String), 妇科郑主任(String), 妇科主任(String), 1(String)
+2021-03-18 19:59:09 391759 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 20:00:08 450187 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 20:00:08 450188 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 1104(String)
+2021-03-18 20:00:08 450189 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 20:00:08 450189 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 20:00:08 450190 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: 253e4adc63a1491bbda240f1810b5592(String), 1104(String), 恩比德(String), $2a$10$YrsYoU88bDaeMWbk.1a58.AOeo8KTDsoBmL/lNkJKfJkRskVjAQNe(String), www.baidu.com(String), 1003(String), 病人恩先生(String), 用户(String), 2(String)
+2021-03-18 20:00:08 450194 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 20:00:27 468930 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 20:00:27 468930 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 11045(String)
+2021-03-18 20:00:27 468931 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 20:00:27 468931 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 20:00:27 468932 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: 99ab47bf01db42caac05f51666b93bf3(String), 11045(String), 恩比德111111(String), $2a$10$/6W8WQz7ARqqaFPmAbId0uS12nXhq0aHbJveoMw2ol92E9WfWMkB.(String), www.baidu.com(String), 1003(String), 病人恩先生11111(String), 用户111(String), 2(String)
+2021-03-18 20:00:27 468949 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 20:00:37 479243 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 20:00:37 479243 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 11046(String)
+2021-03-18 20:00:37 479244 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 20:00:37 479244 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 20:00:37 479245 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: a77bb65aed034cd391b901b7cd1b5021(String), 11046(String), 恩比德111111(String), $2a$10$hzyVe6HKRqGKpMK7qxO7Cu/LAlvffeN7PDa/rvpC1gYJK2lc/4SMC(String), www.baidu.com(String), 1003(String), 病人恩先生11111(String), 用户111(String), 2(String)
+2021-03-18 20:00:37 479248 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 20:01:15 517249 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 20:01:15 517249 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: 1(String)
+2021-03-18 20:01:15 517250 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 20:01:15 517251 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 20:01:15 517251 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: fb6fc2105a034deeb2f0ca7737529dba(String), 1(String), 管理员(String), $2a$10$Dp04BK83M7VPAdTCWJ5brO0AXDLo9JgONX5Axzz9mVW1sLjbDEGFW(String), www.baidu.com(String), 1003(String), 管理员(String), 管理员(String), 0(String)
+2021-03-18 20:01:15 517253 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 20:01:27 529295 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==>  Preparing: select count(user_code) from user where user_code = ? and status = 0 
+2021-03-18 20:01:27 529296 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - ==> Parameters: admin(String)
+2021-03-18 20:01:27 529297 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.countUserCode - <==      Total: 1
+2021-03-18 20:01:27 529298 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==>  Preparing: insert into user values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, 0 ) 
+2021-03-18 20:01:27 529299 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.addUser - ==> Parameters: dc48850938a74290ab34b853d2d5d206(String), admin(String), 管理员(String), $2a$10$scl.RWw.YrKsG6yB.ZV/LeVw9pOjtGwwgPyOZs2vm5mq1QWs7ZUNe(String), www.baidu.com(String), 1003(String), 管理员(String), 管理员(String), 0(String)
+2021-03-18 20:01:27 529301 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.addUser - <==    Updates: 1
+2021-03-18 20:01:50 552385 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_code 'username', user_password 'password' from user where user_code = ? 
+2021-03-18 20:01:50 552386 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-18 20:01:50 552388 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-18 20:07:01 863105 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_code 'username', user_password 'password' from user where user_code = ? 
+2021-03-18 20:07:01 863106 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-18 20:07:01 863107 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-18 20:20:20 28248 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_code 'username', user_password 'password' from user where user_code = ? 
+2021-03-18 20:20:20 28277 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-18 20:20:20 28321 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-18 20:20:39 47376 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==>  Preparing: select user_id 'userId', user_code 'username', user_password 'password' from user where user_code = ? 
+2021-03-18 20:20:39 47377 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - ==> Parameters: admin(String)
+2021-03-18 20:20:39 47379 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.login.mapper.LoginMapper.findByUserName - <==      Total: 1
+2021-03-18 20:26:03 26535 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE status = 0 
+2021-03-18 20:26:03 26567 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==> Parameters: 
+2021-03-18 20:26:03 26608 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - <==      Total: 1
+2021-03-18 20:26:03 26612 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==>  Preparing: select * from user WHERE status = 0 LIMIT ? 
+2021-03-18 20:26:03 26614 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==> Parameters: 20(Integer)
+2021-03-18 20:26:03 26618 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser - <==      Total: 7
+2021-03-18 20:26:25 48579 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE status = 0 AND role = ? 
+2021-03-18 20:26:25 48579 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==> Parameters: 1(String)
+2021-03-18 20:26:25 48580 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - <==      Total: 1
+2021-03-18 20:26:25 48581 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==>  Preparing: select * from user WHERE status = 0 and role = ? LIMIT ? 
+2021-03-18 20:26:25 48581 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==> Parameters: 1(String), 20(Integer)
+2021-03-18 20:26:25 48582 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.listUser - <==      Total: 2
+2021-03-18 20:26:33 56735 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE status = 0 AND role = ? 
+2021-03-18 20:26:33 56736 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==> Parameters: 2(String)
+2021-03-18 20:26:33 56737 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - <==      Total: 1
+2021-03-18 20:26:33 56737 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==>  Preparing: select * from user WHERE status = 0 and role = ? LIMIT ? 
+2021-03-18 20:26:33 56738 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==> Parameters: 2(String), 20(Integer)
+2021-03-18 20:26:33 56739 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.user.mapper.UserMapper.listUser - <==      Total: 3
+2021-03-18 20:28:09 152619 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.deleteUser - ==>  Preparing: update user set status = 1 where user_id in ( ? , ? ) 
+2021-03-18 20:28:09 152619 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.deleteUser - ==> Parameters: dc48850938a74290ab34b853d2d5d206(String), fb6fc2105a034deeb2f0ca7737529dba(String)
+2021-03-18 20:28:09 152654 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.deleteUser - <==    Updates: 2
+2021-03-18 20:28:25 168825 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE status = 0 
+2021-03-18 20:28:25 168825 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==> Parameters: 
+2021-03-18 20:28:25 168826 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - <==      Total: 1
+2021-03-18 20:28:25 168826 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==>  Preparing: select * from user WHERE status = 0 LIMIT ? 
+2021-03-18 20:28:25 168827 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==> Parameters: 20(Integer)
+2021-03-18 20:28:25 168831 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.listUser - <==      Total: 5
+2021-03-18 20:32:32 56223 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.updateUser - ==>  Preparing: update user set user_name = ?, img_path = ?, department_id = ?, user_describe = ?, job_name = ?, where user_id = ? 
+2021-03-18 20:32:32 56251 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.user.mapper.UserMapper.updateUser - ==> Parameters: string(String), string(String), string(String), string(String), string(String), 99ab47bf01db42caac05f51666b93bf3(String)
+2021-03-18 20:33:35 36828 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.updateUser - ==>  Preparing: update user set user_name = ?, img_path = ?, department_id = ?, user_describe = ?, job_name = ? where user_id = ? 
+2021-03-18 20:33:35 36856 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.updateUser - ==> Parameters: string(String), string(String), string(String), string(String), string(String), 99ab47bf01db42caac05f51666b93bf3(String)
+2021-03-18 20:33:35 36864 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.user.mapper.UserMapper.updateUser - <==    Updates: 1
+2021-03-18 20:34:00 62060 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getPassword - ==>  Preparing: select user_password from user where user_id = ? 
+2021-03-18 20:34:00 62061 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getPassword - ==> Parameters: 99ab47bf01db42caac05f51666b93bf3(String)
+2021-03-18 20:34:00 62086 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.getPassword - <==      Total: 1
+2021-03-18 20:34:01 62324 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.updatePassword - ==>  Preparing: update user set user_password = ? where user_id = ? 
+2021-03-18 20:34:01 62324 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.updatePassword - ==> Parameters: $2a$10$VF5jCCCuCWjEQ22uq4K8weADvjO42aUY4xnymN6GMxDCDgjC4dG7.(String), 99ab47bf01db42caac05f51666b93bf3(String)
+2021-03-18 20:34:01 62327 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.user.mapper.UserMapper.updatePassword - <==    Updates: 1
+2021-03-18 20:34:07 68287 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getPassword - ==>  Preparing: select user_password from user where user_id = ? 
+2021-03-18 20:34:07 68287 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getPassword - ==> Parameters: 99ab47bf01db42caac05f51666b93bf3(String)
+2021-03-18 20:34:07 68288 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.user.mapper.UserMapper.getPassword - <==      Total: 1
+2021-03-18 20:34:13 74199 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getPassword - ==>  Preparing: select user_password from user where user_id = ? 
+2021-03-18 20:34:13 74199 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getPassword - ==> Parameters: 99ab47bf01db42caac05f51666b93bf3(String)
+2021-03-18 20:34:13 74200 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.getPassword - <==      Total: 1
+2021-03-18 20:34:13 74427 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.updatePassword - ==>  Preparing: update user set user_password = ? where user_id = ? 
+2021-03-18 20:34:13 74427 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.updatePassword - ==> Parameters: $2a$10$rQrwzO0Du.Zc9VbhnmqS9OhBvNbJhJda2V9C4r7IeAXSw2JXfCRHW(String), 99ab47bf01db42caac05f51666b93bf3(String)
+2021-03-18 20:34:13 74431 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.user.mapper.UserMapper.updatePassword - <==    Updates: 1
+2021-03-18 21:03:35 118851 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==>  Preparing: select count(department_code) from department where department_code = ? 
+2021-03-18 21:03:35 118883 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==> Parameters: 101(String)
+2021-03-18 21:03:35 118916 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - <==      Total: 1
+2021-03-18 21:03:35 118920 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==>  Preparing: insert into department values ( ?, ?, ?, ?, 0 ) 
+2021-03-18 21:03:35 118923 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==> Parameters: f00b59ddc51a4f7487359e882d142a0b(String), 101(String), 肠胃科咨询师(String), 肠胃科咨询师(String)
+2021-03-18 21:03:35 118926 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - <==    Updates: 1
+2021-03-18 21:03:41 124322 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==>  Preparing: select count(department_code) from department where department_code = ? 
+2021-03-18 21:03:41 124323 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==> Parameters: 101(String)
+2021-03-18 21:03:41 124323 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - <==      Total: 1
+2021-03-18 21:04:20 164287 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==>  Preparing: select count(department_code) from department where department_code = ? 
+2021-03-18 21:04:20 164287 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==> Parameters: 102(String)
+2021-03-18 21:04:20 164288 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - <==      Total: 1
+2021-03-18 21:04:20 164289 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==>  Preparing: insert into department values ( ?, ?, ?, ?, 0 ) 
+2021-03-18 21:04:20 164289 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==> Parameters: e58f55071f884356bf068db8423dada1(String), 102(String), 感冒科(String), 感冒科咨询室(String)
+2021-03-18 21:04:21 164292 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - <==    Updates: 1
+2021-03-18 21:04:37 180335 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==>  Preparing: select count(department_code) from department where department_code = ? 
+2021-03-18 21:04:37 180336 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==> Parameters: 103(String)
+2021-03-18 21:04:37 180354 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - <==      Total: 1
+2021-03-18 21:04:37 180354 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==>  Preparing: insert into department values ( ?, ?, ?, ?, 0 ) 
+2021-03-18 21:04:37 180355 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==> Parameters: 6c154e75ca91492e800add95c05e5ec3(String), 103(String), 骨科(String), 骨科咨询室(String)
+2021-03-18 21:04:37 180358 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - <==    Updates: 1
+2021-03-18 21:04:54 197858 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==>  Preparing: select count(department_code) from department where department_code = ? 
+2021-03-18 21:04:54 197858 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==> Parameters: 104(String)
+2021-03-18 21:04:54 197859 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - <==      Total: 1
+2021-03-18 21:04:54 197860 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==>  Preparing: insert into department values ( ?, ?, ?, ?, 0 ) 
+2021-03-18 21:04:54 197860 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==> Parameters: 68fb68d13cc24353be6ab2d4e9ac3b8c(String), 104(String), 眼耳口鼻(String), 眼耳口鼻咨询室(String)
+2021-03-18 21:04:54 197864 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - <==    Updates: 1
+2021-03-18 21:05:19 222345 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==>  Preparing: select count(department_code) from department where department_code = ? 
+2021-03-18 21:05:19 222345 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - ==> Parameters: 105(String)
+2021-03-18 21:05:19 222346 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.countDepartment - <==      Total: 1
+2021-03-18 21:05:19 222347 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==>  Preparing: insert into department values ( ?, ?, ?, ?, 0 ) 
+2021-03-18 21:05:19 222347 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - ==> Parameters: e1036cdad12941c5977a0decf6b941cd(String), 105(String), 体检(String), 体检咨询室(String)
+2021-03-18 21:05:19 222352 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.addDepartment - <==    Updates: 1
+2021-03-18 21:38:58 30777 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment_COUNT - ==>  Preparing: SELECT count(0) FROM department WHERE status = 0 
+2021-03-18 21:38:58 30810 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment_COUNT - ==> Parameters: 
+2021-03-18 21:38:58 30865 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment_COUNT - <==      Total: 1
+2021-03-18 21:38:58 30868 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment - ==>  Preparing: select * from department WHERE status = 0 LIMIT ? 
+2021-03-18 21:38:58 30868 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment - ==> Parameters: 20(Integer)
+2021-03-18 21:38:58 30883 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment - <==      Total: 5
+2021-03-18 21:47:07 76508 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.updateDepartment - ==>  Preparing: update department set department_name = ?, department_describe = ? where department_id = ? 
+2021-03-18 21:47:07 76537 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.updateDepartment - ==> Parameters: string(String), string(String), 111(String)
+2021-03-18 21:47:07 76556 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.department.mapper.DepartmentMapper.updateDepartment - <==    Updates: 1
+2021-03-18 21:53:08 15696 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.department.mapper.DepartmentMapper.deleteDepartment - ==>  Preparing: update department set status = 1 where department_id in ( ? , ? ) 
+2021-03-18 21:53:08 15724 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.department.mapper.DepartmentMapper.deleteDepartment - ==> Parameters: 111(String), 68fb68d13cc24353be6ab2d4e9ac3b8c(String)
+2021-03-18 21:53:08 15794 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.department.mapper.DepartmentMapper.deleteDepartment - <==    Updates: 2
+2021-03-18 21:53:21 28010 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment_COUNT - ==>  Preparing: SELECT count(0) FROM department WHERE status = 0 
+2021-03-18 21:53:21 28011 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment_COUNT - ==> Parameters: 
+2021-03-18 21:53:21 28037 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment_COUNT - <==      Total: 1
+2021-03-18 21:53:21 28040 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment - ==>  Preparing: select * from department WHERE status = 0 LIMIT ? 
+2021-03-18 21:53:21 28040 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment - ==> Parameters: 20(Integer)
+2021-03-18 21:53:21 28043 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.department.mapper.DepartmentMapper.listDepartment - <==      Total: 4

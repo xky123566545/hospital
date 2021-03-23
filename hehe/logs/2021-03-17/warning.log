@@ -1,0 +1,94 @@
+2021-03-17 08:44:30.914 [http-nio-8082-exec-9] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 09:12:38.948 [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'roleController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'roleServicelmpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.role.mapper.RoleMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-03-17 09:19:13.201 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.demo.role.mapper.RoleMapper.countRoleId]
+2021-03-17 09:50:58.743 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.demo.role.mapper.RoleMapper.countRoleId]
+2021-03-17 10:40:42.696 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 10:43:58.754 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 10:59:29.024 [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'persistenceExceptionTranslationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/dao/PersistenceExceptionTranslationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'persistenceExceptionTranslationPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroFilter' defined in class path resource [com/example/demo/login/config/shiro/ShiroConfig.class]: Unsatisfied dependency expressed through method 'factory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityManager' defined in class path resource [com/example/demo/login/config/shiro/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getManager' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRealm': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginMapper' defined in file [C:\Users\Administrator\Desktop\毕业设计项目\MES系统\demo\target\classes\com\example\demo\login\mapper\LoginMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\毕业设计项目\MES系统\demo\target\classes\mapper\RoleMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 43; columnNumber: 10; 元素类型为 "mapper" 的内容必须匹配 "(cache-ref|cache|resultMap*|parameterMap*|sql*|insert*|update*|delete*|select*)+"。
+2021-03-17 11:10:54.642 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'roleId' not found. Available parameters are [collection, list]]
+2021-03-17 11:13:37.185 [http-nio-8082-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 11:32:44.284 [http-nio-8082-exec-10] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 11:34:00.242 [http-nio-8082-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 14:22:26.986 [http-nio-8082-exec-10] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 14:22:27.477 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xAC\xED\x00\x05sr...' for column 'user_id' at row 1
+### The error may involve com.example.demo.role.mapper.RoleMapper.addRoleUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into role_user         values                        (                 ?,                 ?,                 0             )          ,              (                 ?,                 ?,                 0             )
+### Cause: java.sql.SQLException: Incorrect string value: '\xAC\xED\x00\x05sr...' for column 'user_id' at row 1]
+2021-03-17 14:23:59.972 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xAC\xED\x00\x05sr...' for column 'user_id' at row 1
+### The error may involve com.example.demo.role.mapper.RoleMapper.addRoleUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into role_user         values                        (                 ?,                 ?,                 0             )          ,              (                 ?,                 ?,                 0             )
+### Cause: java.sql.SQLException: Incorrect string value: '\xAC\xED\x00\x05sr...' for column 'user_id' at row 1]
+2021-03-17 14:24:07.952 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (']' (code 93)): expected a value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unexpected character (']' (code 93)): expected a value
+ at [Source: (PushbackInputStream); line: 3, column: 2] (through reference chain: java.util.ArrayList[1])]
+2021-03-17 14:24:17.014 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xAC\xED\x00\x05sr...' for column 'user_id' at row 1
+### The error may involve com.example.demo.role.mapper.RoleMapper.addRoleUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into role_user         values                        (                 ?,                 ?,                 0             )
+### Cause: java.sql.SQLException: Incorrect string value: '\xAC\xED\x00\x05sr...' for column 'user_id' at row 1]
+2021-03-17 14:26:50.792 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 14:34:23.136 [http-nio-8082-exec-10] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 16:44:35.015 [http-nio-8082-exec-7] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:08:17.730 [http-nio-8082-exec-7] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:08:18.153 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+### The error may involve com.example.demo.menu.mapper.MenuMapper.updateRoleMenu-Inline
+### The error occurred while setting parameters
+### SQL: insert into role_menu         values          (               (                 ?,                 ?             )          ,              (                 ?,                 ?             )          ,              (                 ?,                 ?             )          ,              (                 ?,                 ?             )          )
+### Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+; bad SQL grammar []; nested exception is java.sql.SQLException: Column count doesn't match value count at row 1]
+2021-03-17 17:11:07.511 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:12:42.420 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:30:36.889 [http-nio-8082-exec-10] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:30:37.343 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'inventory.menu_role' doesn't exist
+### The error may exist in file [C:\Users\Administrator\Desktop\毕业设计项目\MES系统\demo\target\classes\mapper\MenuMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select menu_id         from menu_role         where role_id = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'inventory.menu_role' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'inventory.menu_role' doesn't exist]
+2021-03-17 17:31:25.868 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:31:26.306 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.UnsupportedOperationException
+### The error may exist in file [C:\Users\Administrator\Desktop\毕业设计项目\MES系统\demo\target\classes\mapper\MenuMapper.xml]
+### The error may involve com.example.demo.menu.mapper.MenuMapper.getRoleMenu
+### The error occurred while handling results
+### SQL: select menu_id         from role_menu         where role_id = ?
+### Cause: java.lang.UnsupportedOperationException]
+2021-03-17 17:32:24.826 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:32:25.220 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.UnsupportedOperationException
+### The error may exist in file [C:\Users\Administrator\Desktop\毕业设计项目\MES系统\demo\target\classes\mapper\MenuMapper.xml]
+### The error may involve com.example.demo.menu.mapper.MenuMapper.getRoleMenu
+### The error occurred while handling results
+### SQL: select menu_id         from role_menu         where role_id = ?
+### Cause: java.lang.UnsupportedOperationException]
+2021-03-17 17:33:07.150 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:33:07.543 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: A query was run and no Result Maps were found for the Mapped Statement 'com.example.demo.menu.mapper.MenuMapper.getRoleMenu'.  It's likely that neither a Result Type nor a Result Map was specified.]
+2021-03-17 17:33:54.869 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:34:10.597 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'menu_id' in field list is ambiguous
+### The error may exist in file [C:\Users\Administrator\Desktop\毕业设计项目\MES系统\demo\target\classes\mapper\MenuMapper.xml]
+### The error may involve com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf-Inline
+### The error occurred while setting parameters
+### SQL: select menu_id         from role_menu m1         inner join menu m2         on m1.menuId = m2.menuId         where m1.role_id = ?         and m2.is_leaf = 1
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'menu_id' in field list is ambiguous
+; Column 'menu_id' in field list is ambiguous; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'menu_id' in field list is ambiguous]
+2021-03-17 17:35:07.953 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:35:08.368 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'menu_id' in field list is ambiguous
+### The error may exist in file [C:\Users\Administrator\Desktop\毕业设计项目\MES系统\demo\target\classes\mapper\MenuMapper.xml]
+### The error may involve com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf-Inline
+### The error occurred while setting parameters
+### SQL: select menu_id         from role_menu m1         inner join menu m2         on m1.menu_id = m2.menu_id         where m1.role_id = ?         and m2.is_leaf = 1
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'menu_id' in field list is ambiguous
+; Column 'menu_id' in field list is ambiguous; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'menu_id' in field list is ambiguous]
+2021-03-17 17:35:41.905 [http-nio-8082-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:37:50.745 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 17:38:45.061 [http-nio-8082-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-17 19:31:47.881 [http-nio-8082-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.

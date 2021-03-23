@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.picture.mapper.ImgMapper">
+<!--新增首页轮播图-->
+<insert id="saveImg" parameterType="com.example.demo.picture.entity.ImgInfo">
+    insert into picture
+    values
+    (
+        #{imgId},
+        #{imgPath},
+        #{sortNum},
+        0,
+        #{createUser},
+        now()
+    )
+</insert>
+<!--     列表查询图片信息-->
+    <select id="listImg" resultType="com.example.demo.picture.entity.ImgInfo">
+        select *
+        from picture
+        where is_delete = 0
+        order by sort_num
+    </select>
+<!--    修改图片信息-->
+    <update id="updateImg" parameterType="com.example.demo.picture.entity.ImgInfo">
+        update picture
+        set
+            img_path = #{imgPath},
+            sort_num = #{sortNum}
+        where img_id = #{imgId}
+    </update>
+<!--    删除图片信息-->
+    <delete id="deleteImg" parameterType="java.util.List">
+        update picture
+        set
+            is_delete = 1
+        where img_id  in 
+        <foreach collection="imgId" separator="," index="index" item="item" close=")" open="(">
+            #{item}
+        </foreach>
+    </delete>
+</mapper>

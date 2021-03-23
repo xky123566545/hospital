@@ -1,0 +1,64 @@
+2021-03-19 09:18:23 201164 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==>  Preparing: insert into picture values ( ?, ?, ?, 0, createUser, now() ) 
+2021-03-19 09:18:23 201195 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==> Parameters: 779b0c9c683d4a9ebddff6e98e601dab(String), www.baidu.com(String), 1(String)
+2021-03-19 09:19:52 66109 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==>  Preparing: insert into picture values ( ?, ?, ?, 0, ?, now() ) 
+2021-03-19 09:19:52 66138 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==> Parameters: fed88c5e33d345bcb38a7b9c1fe5578a(String), www.baidu.com(String), 1(String), admin(String)
+2021-03-19 09:19:52 66218 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - <==    Updates: 1
+2021-03-19 09:20:07 81093 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==>  Preparing: insert into picture values ( ?, ?, ?, 0, ?, now() ) 
+2021-03-19 09:20:07 81094 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==> Parameters: 1fab0b4411974f28ae2bb7df5a7a0c13(String), www.baidu.com(String), 7(String), admin(String)
+2021-03-19 09:20:07 81128 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - <==    Updates: 1
+2021-03-19 09:20:12 86179 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==>  Preparing: insert into picture values ( ?, ?, ?, 0, ?, now() ) 
+2021-03-19 09:20:12 86179 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==> Parameters: 6c031120a8f842a2b93f613b82e6f645(String), www.baidu.com(String), 8(String), admin(String)
+2021-03-19 09:20:12 86181 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - <==    Updates: 1
+2021-03-19 09:20:17 91338 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==>  Preparing: insert into picture values ( ?, ?, ?, 0, ?, now() ) 
+2021-03-19 09:20:17 91339 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==> Parameters: c323f2db836a4f308d37ed936cf72530(String), www.baidu.com(String), 3(String), admin(String)
+2021-03-19 09:20:17 91356 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - <==    Updates: 1
+2021-03-19 09:20:20 94086 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==>  Preparing: insert into picture values ( ?, ?, ?, 0, ?, now() ) 
+2021-03-19 09:20:20 94087 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==> Parameters: e815ad9fac284c4e8d1547ed36625ba4(String), www.baidu.com(String), 4(String), admin(String)
+2021-03-19 09:20:20 94099 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - <==    Updates: 1
+2021-03-19 09:20:23 96766 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==>  Preparing: insert into picture values ( ?, ?, ?, 0, ?, now() ) 
+2021-03-19 09:20:23 96766 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - ==> Parameters: 3b749752c3c54e149f06af0504d6e3b3(String), www.baidu.com(String), 5(String), admin(String)
+2021-03-19 09:20:23 96768 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.picture.mapper.ImgMapper.saveImg - <==    Updates: 1
+2021-03-19 14:41:24 1209884 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.picture.mapper.ImgMapper.listImg_COUNT - ==>  Preparing: SELECT count(0) FROM picture WHERE is_delete = 0 
+2021-03-19 14:41:24 1209914 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.picture.mapper.ImgMapper.listImg_COUNT - ==> Parameters: 
+2021-03-19 14:41:24 1209973 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.picture.mapper.ImgMapper.listImg_COUNT - <==      Total: 1
+2021-03-19 14:41:25 1209976 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.picture.mapper.ImgMapper.listImg - ==>  Preparing: select * from picture where is_delete = 0 order by sort_num LIMIT ? 
+2021-03-19 14:41:25 1209977 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.picture.mapper.ImgMapper.listImg - ==> Parameters: 20(Integer)
+2021-03-19 14:41:25 1209984 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.picture.mapper.ImgMapper.listImg - <==      Total: 6
+2021-03-19 16:27:05 97406 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.deleteImg - ==>  Preparing: update picture set is_delete = 1 where img_id in ( ? ) 
+2021-03-19 16:27:05 97443 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.deleteImg - ==> Parameters: [e815ad9fac284c4e8d1547ed36625ba4](ArrayList)
+2021-03-19 16:27:05 97562 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.deleteImg - <==    Updates: 0
+2021-03-19 16:28:51 50453 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.deleteImg - ==>  Preparing: update picture set is_delete = 1 where img_id in ( ? ) 
+2021-03-19 16:28:51 50488 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.deleteImg - ==> Parameters: e815ad9fac284c4e8d1547ed36625ba4(String)
+2021-03-19 16:28:51 50568 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.picture.mapper.ImgMapper.deleteImg - <==    Updates: 1

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.registration.mapper.RegistrationMapper">
+<!--新增挂号信息-->
+    <insert id="addRegistration" parameterType="com.example.demo.registration.entity.RegistrationInfo">
+        insert into registration
+        values
+        (
+            #{registrationId},
+            #{userCode},
+            #{userName},
+            #{departmentName},
+            #{departmentDescribe},
+            #{doctorName},
+            #{jobName},
+            0
+        )
+    </insert>
+<!--    列表查询-->
+    <select id="listRegistration" resultType="com.example.demo.registration.entity.RegistrationInfo">
+        select *
+        from registration
+    </select>
+<!--    查询人数-->
+    <select id="countDoctorName" resultType="int">
+        select count(doctor_name)
+        from registration
+        where status = 0
+        and doctor_name = #{doctorName}
+    </select>
+<!--    修改状态-->
+    <update id="updateStatus" parameterType="java.util.List">
+        update registration
+        set
+            status = #{status}
+        where registration_id in
+        <foreach collection="rId" open="(" close=")" item="item" index="index" separator=",">
+            #{item}
+        </foreach>
+    </update>
+</mapper>

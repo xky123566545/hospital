@@ -1,0 +1,316 @@
+2021-03-17 08:44:31 50302 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE status = 0 
+2021-03-17 08:44:31 50333 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - ==> Parameters: 
+2021-03-17 08:44:31 50365 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.listUser_COUNT - <==      Total: 1
+2021-03-17 08:44:31 50369 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==>  Preparing: select * from user WHERE status = 0 LIMIT ? 
+2021-03-17 08:44:31 50370 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.listUser - ==> Parameters: 20(Integer)
+2021-03-17 08:44:31 50375 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-9]
+                    com.example.demo.user.mapper.UserMapper.listUser - <==      Total: 2
+2021-03-17 10:40:43 2944573 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==>  Preparing: select count(role_id) from role where role_id = ? 
+2021-03-17 10:40:43 2944606 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==> Parameters: 1001(String)
+2021-03-17 10:40:43 2944657 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - <==      Total: 1
+2021-03-17 10:43:58 168933 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==>  Preparing: select count(role_id) from role where role_id = ? 
+2021-03-17 10:43:58 168959 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==> Parameters: 1001(String)
+2021-03-17 10:43:59 168985 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - <==      Total: 1
+2021-03-17 10:43:59 168990 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==>  Preparing: insert into role values ( ?, ?, 0, ?, now(), ? ) 
+2021-03-17 10:43:59 168991 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==> Parameters: 1001(String), 车间管理员(String), 001968(String), 管理员(String)
+2021-03-17 10:43:59 169108 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.addRole - <==    Updates: 1
+2021-03-17 10:44:27 197285 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==>  Preparing: select count(role_id) from role where role_id = ? 
+2021-03-17 10:44:27 197286 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==> Parameters: 1002(String)
+2021-03-17 10:44:27 197286 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - <==      Total: 1
+2021-03-17 10:44:27 197287 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==>  Preparing: insert into role values ( ?, ?, 0, ?, now(), ? ) 
+2021-03-17 10:44:27 197287 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==> Parameters: 1002(String), 车间主任(String), admin(String), 管理员(String)
+2021-03-17 10:44:27 197291 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.addRole - <==    Updates: 1
+2021-03-17 10:44:38 208402 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==>  Preparing: select count(role_id) from role where role_id = ? 
+2021-03-17 10:44:38 208402 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==> Parameters: 1003(String)
+2021-03-17 10:44:38 208403 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - <==      Total: 1
+2021-03-17 10:44:38 208404 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==>  Preparing: insert into role values ( ?, ?, 0, ?, now(), ? ) 
+2021-03-17 10:44:38 208404 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==> Parameters: 1003(String), 车间班长(String), admin(String), 管理员(String)
+2021-03-17 10:44:38 208408 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.role.mapper.RoleMapper.addRole - <==    Updates: 1
+2021-03-17 10:44:48 218631 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==>  Preparing: select count(role_id) from role where role_id = ? 
+2021-03-17 10:44:48 218632 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - ==> Parameters: 1004(String)
+2021-03-17 10:44:48 218632 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.countRoleId - <==      Total: 1
+2021-03-17 10:44:48 218633 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==>  Preparing: insert into role values ( ?, ?, 0, ?, now(), ? ) 
+2021-03-17 10:44:48 218634 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.addRole - ==> Parameters: 1004(String), 经理(String), admin(String), 管理员(String)
+2021-03-17 10:44:48 218637 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.addRole - <==    Updates: 1
+2021-03-17 10:45:56 286950 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.role.mapper.RoleMapper.updateRole - ==>  Preparing: update role set role_name = ?, create_user = ?, create_time = now(), create_username = ? where role_id = ? 
+2021-03-17 10:45:56 286950 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.role.mapper.RoleMapper.updateRole - ==> Parameters: 测试2222(String), 1111(String), 1111(String), 1005(String)
+2021-03-17 10:45:57 287064 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.role.mapper.RoleMapper.updateRole - <==    Updates: 1
+2021-03-17 11:13:37 117424 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.deleteRole - ==>  Preparing: update role set status = 1 where role_id in ( ? , ? , ? ) 
+2021-03-17 11:13:37 117450 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.deleteRole - ==> Parameters: 1005(String), 1004(String), 1003(String)
+2021-03-17 11:13:37 117488 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.deleteRole - <==    Updates: 3
+2021-03-17 11:32:44 25862 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.listRole_COUNT - ==>  Preparing: SELECT count(0) FROM role 
+2021-03-17 11:32:44 25897 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.listRole_COUNT - ==> Parameters: 
+2021-03-17 11:32:44 25955 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.listRole_COUNT - <==      Total: 1
+2021-03-17 11:32:44 25960 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.listRole - ==>  Preparing: select * from role ORDER BY ROLE_ID DESC LIMIT ? 
+2021-03-17 11:32:44 25961 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.listRole - ==> Parameters: 20(Integer)
+2021-03-17 11:32:44 25965 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.listRole - <==      Total: 5
+2021-03-17 11:34:00 34319 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.listRole_COUNT - ==>  Preparing: SELECT count(0) FROM role 
+2021-03-17 11:34:00 34349 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.listRole_COUNT - ==> Parameters: 
+2021-03-17 11:34:00 34421 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.listRole_COUNT - <==      Total: 1
+2021-03-17 11:34:00 34426 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.listRole - ==>  Preparing: select * from role ORDER BY ROLE_ID DESC LIMIT ? 
+2021-03-17 11:34:00 34427 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.listRole - ==> Parameters: 20(Integer)
+2021-03-17 11:34:00 34433 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.listRole - <==      Total: 5
+2021-03-17 14:22:27 352047 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==>  Preparing: insert into role_user values ( ?, ?, 0 ) , ( ?, ?, 0 ) 
+2021-03-17 14:22:27 352127 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==> Parameters: 1005(String), [admin, 001111](ArrayList), 1005(String), [admin, 001111](ArrayList)
+2021-03-17 14:23:59 444748 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==>  Preparing: insert into role_user values ( ?, ?, 0 ) , ( ?, ?, 0 ) 
+2021-03-17 14:23:59 444749 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==> Parameters: 1005(String), [admin, 001111](ArrayList), 1005(String), [admin, 001111](ArrayList)
+2021-03-17 14:24:17 461792 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==>  Preparing: insert into role_user values ( ?, ?, 0 ) 
+2021-03-17 14:24:17 461793 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==> Parameters: 1005(String), [admin](ArrayList)
+2021-03-17 14:26:50 95907 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==>  Preparing: insert into role_user values ( ?, ?, 0 ) , ( ?, ?, 0 ) 
+2021-03-17 14:26:51 95933 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - ==> Parameters: 1005(String), admin(String), 1005(String), 001111(String)
+2021-03-17 14:26:51 96076 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.role.mapper.RoleMapper.addRoleUser - <==    Updates: 2
+2021-03-17 14:34:23 115752 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.deleteRoleUser - ==>  Preparing: update role_user set is_delete = 1 where user_id in ( ? ) and role_id = ? 
+2021-03-17 14:34:23 115779 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.deleteRoleUser - ==> Parameters: admin(String), 1005(String)
+2021-03-17 14:34:23 115815 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.role.mapper.RoleMapper.deleteRoleUser - <==    Updates: 1
+2021-03-17 14:34:40 133198 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.deleteRoleUser - ==>  Preparing: update role_user set is_delete = 1 where user_id in ( ? , ? ) and role_id = ? 
+2021-03-17 14:34:40 133198 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.deleteRoleUser - ==> Parameters: admin(String), 001111(String), 1005(String)
+2021-03-17 14:34:40 133201 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.role.mapper.RoleMapper.deleteRoleUser - <==    Updates: 2
+2021-03-17 16:44:35 333913 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.role.mapper.RoleMapper.getUsersByRole_COUNT - ==>  Preparing: SELECT count(0) FROM role_user u1 INNER JOIN user u2 ON u1.user_id = u2.user_code WHERE u1.is_delete = 0 AND u2.status = 0 
+2021-03-17 16:44:35 333942 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.role.mapper.RoleMapper.getUsersByRole_COUNT - ==> Parameters: 
+2021-03-17 16:44:35 333997 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.role.mapper.RoleMapper.getUsersByRole_COUNT - <==      Total: 1
+2021-03-17 16:44:35 334000 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.role.mapper.RoleMapper.getUsersByRole - ==>  Preparing: select u1.role_id, u2.user_id, u2.user_code, u2.user_name, u2.status, u2.create_time, u2.create_user from role_user u1 inner join user u2 on u1.user_id = u2.user_code where u1.is_delete = 0 and u2.status = 0 LIMIT ? 
+2021-03-17 16:44:35 334001 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.role.mapper.RoleMapper.getUsersByRole - ==> Parameters: 20(Integer)
+2021-03-17 16:44:35 334005 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.role.mapper.RoleMapper.getUsersByRole - <==      Total: 2
+2021-03-17 17:08:17 107714 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==>  Preparing: delete from role_menu where role_id = ? 
+2021-03-17 17:08:17 107747 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:08:18 107789 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - <==    Updates: 2
+2021-03-17 17:08:18 107815 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==>  Preparing: insert into role_menu values ( ( ?, ? ) , ( ?, ? ) , ( ?, ? ) , ( ?, ? ) ) 
+2021-03-17 17:08:18 107816 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==> Parameters: 1001(String), 1001(String), 1001(String), 1002(String), 1001(String), 1003(String), 1001(String), 1004(String)
+2021-03-17 17:11:07 146665 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==>  Preparing: delete from role_menu where role_id = ? 
+2021-03-17 17:11:07 146694 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:11:07 146698 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - <==    Updates: 0
+2021-03-17 17:12:42 18035 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==>  Preparing: delete from role_menu where role_id = ? 
+2021-03-17 17:12:42 18062 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:12:42 18165 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - <==    Updates: 0
+2021-03-17 17:12:42 18187 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==>  Preparing: insert into role_menu values ( ?, ? ) , ( ?, ? ) , ( ?, ? ) , ( ?, ? ) 
+2021-03-17 17:12:42 18188 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==> Parameters: 1001(String), 1001(String), 1001(String), 1002(String), 1001(String), 1003(String), 1001(String), 1004(String)
+2021-03-17 17:12:42 18192 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - <==    Updates: 4
+2021-03-17 17:12:57 32505 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==>  Preparing: delete from role_menu where role_id = ? 
+2021-03-17 17:12:57 32506 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:12:57 32510 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - <==    Updates: 4
+2021-03-17 17:12:57 32511 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==>  Preparing: insert into role_menu values ( ?, ? ) , ( ?, ? ) , ( ?, ? ) , ( ?, ? ) 
+2021-03-17 17:12:57 32512 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==> Parameters: 1001(String), 1003(String), 1001(String), 1002(String), 1001(String), 1003(String), 1001(String), 1004(String)
+2021-03-17 17:12:57 32516 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - <==    Updates: 4
+2021-03-17 17:13:11 47338 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==>  Preparing: delete from role_menu where role_id = ? 
+2021-03-17 17:13:11 47339 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:13:11 47342 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - <==    Updates: 4
+2021-03-17 17:13:11 47342 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==>  Preparing: insert into role_menu values ( ?, ? ) , ( ?, ? ) , ( ?, ? ) , ( ?, ? ) 
+2021-03-17 17:13:11 47343 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==> Parameters: 1001(String), 1001(String), 1001(String), 1002(String), 1001(String), 1003(String), 1001(String), 1004(String)
+2021-03-17 17:13:11 47363 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-3]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - <==    Updates: 4
+2021-03-17 17:13:12 48211 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==>  Preparing: delete from role_menu where role_id = ? 
+2021-03-17 17:13:12 48212 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:13:12 48216 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - <==    Updates: 4
+2021-03-17 17:13:12 48216 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==>  Preparing: insert into role_menu values ( ?, ? ) , ( ?, ? ) , ( ?, ? ) , ( ?, ? ) 
+2021-03-17 17:13:12 48217 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==> Parameters: 1001(String), 1001(String), 1001(String), 1002(String), 1001(String), 1003(String), 1001(String), 1004(String)
+2021-03-17 17:13:12 48219 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-4]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - <==    Updates: 4
+2021-03-17 17:13:19 55030 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==>  Preparing: delete from role_menu where role_id = ? 
+2021-03-17 17:13:19 55031 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - ==> Parameters: 1003(String)
+2021-03-17 17:13:19 55035 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.menu.mapper.MenuMapper.deleteRoleMenu - <==    Updates: 1
+2021-03-17 17:13:19 55035 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==>  Preparing: insert into role_menu values ( ?, ? ) , ( ?, ? ) , ( ?, ? ) , ( ?, ? ) 
+2021-03-17 17:13:19 55036 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - ==> Parameters: 1003(String), 1001(String), 1003(String), 1002(String), 1003(String), 1003(String), 1003(String), 1004(String)
+2021-03-17 17:13:19 55038 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-5]
+                    com.example.demo.menu.mapper.MenuMapper.updateRoleMenu - <==    Updates: 4
+2021-03-17 17:30:37 41899 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==>  Preparing: select menu_id from menu_role where role_id = ? 
+2021-03-17 17:30:37 41927 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:31:26 15082 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==>  Preparing: select menu_id from role_menu where role_id = ? 
+2021-03-17 17:31:26 15106 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:32:25 9704 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==>  Preparing: select menu_id from role_menu where role_id = ? 
+2021-03-17 17:32:25 9734 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:33:07 13535 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==>  Preparing: select menu_id from role_menu where role_id = ? 
+2021-03-17 17:33:07 13565 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:33:55 12203 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==>  Preparing: select menu_id from role_menu where role_id = ? 
+2021-03-17 17:33:55 12236 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - ==> Parameters: 1001(String)
+2021-03-17 17:33:55 12259 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenu - <==      Total: 4
+2021-03-17 17:34:10 27535 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==>  Preparing: select menu_id from role_menu m1 inner join menu m2 on m1.menuId = m2.menuId where m1.role_id = ? and m2.is_leaf = 1 
+2021-03-17 17:34:10 27536 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==> Parameters: 1001(String)
+2021-03-17 17:35:08 13279 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==>  Preparing: select menu_id from role_menu m1 inner join menu m2 on m1.menu_id = m2.menu_id where m1.role_id = ? and m2.is_leaf = 1 
+2021-03-17 17:35:08 13307 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==> Parameters: 1001(String)
+2021-03-17 17:35:42 14313 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==>  Preparing: select m1.menu_id from role_menu m1 inner join menu m2 on m1.menu_id = m2.menu_id where m1.role_id = ? and m2.is_leaf = 1 
+2021-03-17 17:35:42 14339 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==> Parameters: 1001(String)
+2021-03-17 17:35:42 14382 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - <==      Total: 0
+2021-03-17 17:36:16 48934 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==>  Preparing: select m1.menu_id from role_menu m1 inner join menu m2 on m1.menu_id = m2.menu_id where m1.role_id = ? and m2.is_leaf = 1 
+2021-03-17 17:36:16 48934 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==> Parameters: 1002(String)
+2021-03-17 17:36:16 48935 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - <==      Total: 0
+2021-03-17 17:37:51 53274 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==>  Preparing: select m1.menu_id from role_menu m1 inner join menu m2 on m1.menu_id = m2.menu_parent_id where m1.role_id = ? and m2.is_leaf = 1 
+2021-03-17 17:37:51 53304 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==> Parameters: 1002(String)
+2021-03-17 17:37:51 53339 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - <==      Total: 2
+2021-03-17 17:38:45 17911 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==>  Preparing: select m2.menu_id from role_menu m1 inner join menu m2 on m1.menu_id = m2.menu_parent_id where m1.role_id = ? and m2.is_leaf = 1 
+2021-03-17 17:38:45 17940 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - ==> Parameters: 1002(String)
+2021-03-17 17:38:45 17969 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.menu.mapper.MenuMapper.getRoleMenuLeaf - <==      Total: 2
+2021-03-17 19:31:48 148374 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-17 19:31:48 148408 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: 13a5c6aa613247a192b9201661ddf064(String), 把手(String), www.baidu.com(String), 五金(String), 把手(String), 1X3(String), A0302(String), 门窗把手(String), 881234(String), 20(String), 25(String), 100(String), admin(String)
+2021-03-17 19:31:48 148639 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
+2021-03-17 19:32:14 174810 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-17 19:32:14 174811 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: 55363d9bb65148f0a6c78aabda72b48a(String), 门窗(String), www.baidu.com(String), 五金(String), 窗户(String), 1X3(String), A0302(String), 门窗(String), 881234(String), 20(String), 25(String), 100(String), admin(String)
+2021-03-17 19:32:14 174824 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-8]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
+2021-03-17 19:32:23 183681 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-17 19:32:23 183681 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: 8ff2175042a34f2d9d95ab6f6e94f520(String), 门窗(String), www.baidu.com(String), 五金(String), 测试(String), 1X3(String), A0302(String), 测试(String), 881234(String), 20(String), 25(String), 100(String), admin(String)
+2021-03-17 19:32:23 183685 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-7]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
+2021-03-17 19:32:24 184399 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-17 19:32:24 184399 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: d56b4570873e4745aa54077dec6a4a35(String), 门窗(String), www.baidu.com(String), 五金(String), 测试(String), 1X3(String), A0302(String), 测试(String), 881234(String), 20(String), 25(String), 100(String), admin(String)
+2021-03-17 19:32:24 184403 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-2]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
+2021-03-17 19:32:32 193026 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-17 19:32:32 193027 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: c02181887ec847cf9be748b1cbd91a53(String), 测试11111(String), www.baidu.com(String), 五金(String), 测试(String), 1X3(String), A0302(String), 测试(String), 881234(String), 20(String), 25(String), 100(String), admin(String)
+2021-03-17 19:32:32 193029 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-10]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
+2021-03-17 19:32:35 195605 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-17 19:32:35 195605 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: 5103983fb1634d24a97341d45ad314ad(String), 测试11121(String), www.baidu.com(String), 五金(String), 测试(String), 1X3(String), A0302(String), 测试(String), 881234(String), 20(String), 25(String), 100(String), admin(String)
+2021-03-17 19:32:35 195608 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-6]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
+2021-03-17 19:32:38 198984 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==>  Preparing: insert into inventory_manage values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now() ) 
+2021-03-17 19:32:38 198985 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - ==> Parameters: 2c6746b058704c42bca5e1c6e70ef48e(String), 测试88888(String), www.baidu.com(String), 五金(String), 测试(String), 1X3(String), A0302(String), 测试(String), 881234(String), 20(String), 25(String), 100(String), admin(String)
+2021-03-17 19:32:38 198988 [39mDEBUG[0;39m [module.name_IS_UNDEFINED|http-nio-8082-exec-1]
+                    com.example.demo.inventory.mapper.InventoryMapper.saveInventory - <==    Updates: 1
